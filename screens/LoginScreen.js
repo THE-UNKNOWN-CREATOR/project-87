@@ -89,14 +89,14 @@ export default class LoginScreen extends Component {
         });
     };
 
-    signInWithGoogleAsync = async () => {
+        signInWithGoogleAsync = async () => {
         try {
             const result = await Google.logInAsync({
                 behaviour: "web",
                 androidClientId:
-                    "840110494340-99ijj93ruji57nqpn5kqteuohrmb9rk4.apps.googleusercontent.com",
+                    "313988400256-vhp69rulsgh1q09mev4j4vb4d1pkc4sh.apps.googleusercontent.com",
                 iosClientId:
-                    "840110494340-qupn3ta1rtrcdackn652kfi6db2722b6.apps.googleusercontent.com",
+                    "313988400256-ldu8td9e78b5vkpm6tcil2m3n05c5o00.apps.googleusercontent.com",
                 scopes: ["profile", "email"]
             });
 
